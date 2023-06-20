@@ -71,6 +71,7 @@ h1 {
 
 h2 {
 	font-size: 24px;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -80,7 +81,15 @@ h3 {
 
 .box {
 	width: 800px;
-	margin: 0 auto; 
+	margin: 0 auto;
+}
+
+.box-link {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	background:rgb(217, 248, 248);
+	padding: 0;
 }
 
 .box > div {
@@ -89,6 +98,7 @@ h3 {
 
 .box > div + div {
 	margin-top: 20px;
+	padding: 0px;
 }
 
 .box h4 {
@@ -127,17 +137,29 @@ ul {
 
 .reference {
 	text-align: left;
-	width: 800px;
-	margin: 0 auto;
+	width: 400px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 5px 5px 20px;
+	color: black;
 }
 
-link {
+.box-left {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+.link {
 	color: black;
-	background:rgb(217, 248, 248);
 	display: inline-block;
-	margin: 10px;
-	padding: 10px;
+	width: 200px;
+	margin-top: 5px;
+	padding: 5px;
 	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	background:rgb(217, 248, 248);
+	text-align: left;
 }
 
 
