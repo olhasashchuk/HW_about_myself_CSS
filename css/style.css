@@ -92,14 +92,14 @@ h3 {
 	padding: 0;
 }
 
-.box > div {
-	padding: 20px;
+.box div {
+	margin-top: 20px;
 }
 
-.box > div + div {
+/* .box div + div {
 	margin-top: 20px;
 	padding: 0px;
-}
+} */
 
 .box h4 {
 	font-size: 18px;
@@ -113,6 +113,7 @@ p {
 
 .bg-grey {
 	background: rgb(231, 232, 232);
+	padding: 20px;
 }
 
 .name-position {
@@ -133,6 +134,7 @@ ul {
 
 .bg-lightblue {
 	background:rgb(217, 248, 248);
+	padding: 20px;
 }
 
 .reference {
@@ -140,7 +142,7 @@ ul {
 	width: 400px;
 	display: inline-block;
 	text-decoration: none;
-	padding: 5px 5px 5px 20px;
+	padding: 0 0 0 20px;
 	color: black;
 }
 
@@ -149,6 +151,7 @@ ul {
 	margin: 0 auto;
 	text-align: left;
 }
+
 .link {
 	color: black;
 	display: inline-block;
